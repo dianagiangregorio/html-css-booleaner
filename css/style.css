@@ -1,0 +1,40 @@
+/* nselettore per h1 */
+h1 {
+    font-size: 36px;
+    height: 10px;
+}
+
+p {
+    font-size: 12px;
+}
+
+
+/* selettore per id */
+#title_section {
+    font-size: 10px;
+
+}
+
+#article_info {
+    color: rgb(167, 166, 166);
+    height: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(137, 207, 231);
+}
+
+/* selettore per tag */
+div {
+height: 325px;
+}
+
+span {
+    background-color: yellow;
+}
+
+/*selettore per discendenza */
+div img {
+    height: 330px;
+}
