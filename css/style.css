@@ -6,6 +6,7 @@ h1 {
 
 p {
     font-size: 12px;
+    height: 40px;
 }
 
 
@@ -25,6 +26,10 @@ a {
     color: rgb(137, 207, 231);
 }
 
+#list_section {
+    font-size: 12px;
+    text-align: left;
+}
 /* selettore per tag */
 div {
 height: 325px;
