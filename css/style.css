@@ -1,4 +1,4 @@
-/* nselettore per h1 */
+/* selettore per h1 */
 h1 {
     font-size: 36px;
     height: 10px;
@@ -6,7 +6,6 @@ h1 {
 
 p {
     font-size: 12px;
-    height: 40px;
 }
 
 a {
@@ -15,14 +14,14 @@ a {
 }
 
 /* selettore per id */
-#title_section {
-    font-size: 10px;
-
+#generic_text {
+    padding: 5px 0;
 }
 
 #article_info {
-    color: rgb(167, 166, 166);
-    height: 30px;
+    font-size: 10px;
+    color: #a7a6a6;
+    padding-top: 5px;
 }
 
 #images_section {
@@ -38,8 +37,21 @@ a {
     background-color: yellow;
 }
 
-#max {
+#photos_info {
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+#biggest_cell {
     width: 50%;
+}
+
+#copyright_section {
+    background-color: #313a6b;
+    color: #ffffff;
+    text-align: center;
+    margin: 30px; 
+    padding: 10px;
 }
 
 
