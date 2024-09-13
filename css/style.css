@@ -2,6 +2,7 @@
 h1 {
     font-size: 36px;
     height: 10px;
+    margin-top: 10px
 }
 
 p {
@@ -14,6 +15,13 @@ a {
 }
 
 /* selettore per id */
+#logo {
+    height: 70px;
+    background-color: #9cd6f4;
+    background-image: url(img/pattern.png);
+    background-size: 300px;
+}
+
 #generic_text {
     padding: 5px 0;
 }
@@ -26,6 +34,7 @@ a {
 
 #images_section {
     height: 325px;
+
 }
 
 #list_section {
@@ -59,6 +68,10 @@ a {
     background-color: #ffffff;
 }
 
+#logo_img {
+    margin: 20px;
+}
+
 /* selettore per tag */
 table {
     font-size: 12px;
@@ -74,10 +87,6 @@ th {
 }
 
 /*selettore per discendenza */
-div img {
-    height: 330px;
-}
-
 section span {
     font-size: 12px;
     background-color: #7fa6fb;
