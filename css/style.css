@@ -37,22 +37,30 @@ a {
 #color_text {
     background-color: yellow;
 }
+
 #max {
     width: 50%;
+}
+
+
+#white_color {
+    background-color: #ffffff;
 }
 
 /* selettore per tag */
 table {
     font-size: 12px;
-    color: #ffffff;
-    background-color: #7fa6fb;
     table-layout: fixed;
     caption-side: left;
+    border: #ffffff;
 }
 
-tr {
-    border: 10 px solid #ffffff;
+th {
+    color: #ffffff;
+    background-color: #7fa6fb;
+    text-align: left;
 }
+
 /*selettore per discendenza */
 div img {
     height: 330px;
@@ -64,11 +72,11 @@ section span {
     width: 50%;
 }
 
-/* selettore per classe 
+/* selettore per classe */
 .box {
-    font-size: 12px;
-    color: #ffffff;
-    font-weight: bold;
-    height: 15px;
-    background-color: #7fa6fb;
-}*/
+    border: 2px solid #ffffff;
+}
+
+.lightblue_color {
+    background-color: #dfe5f2;
+}
